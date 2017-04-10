@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+/* Main Element*/
+
+body {
+	position: relative;
+/*	background-color: #FF0000;*/
+	text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* NAV BAR*/
+.navConainer {
+	background-color: #FFF;
+	position: relative;
+	width: 100%;
+	height: 150px;
+ 
+	display: inline-block;
+    
+
+}
+
+
+.mainNav {
+	display: inline-block;
+	float: right;
+	background-color: #000;
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+}
+
+.mainNav ul {
+/*    padding: 20px;*/
+    
+
+}
+
+
+.mainNav ul li {
+	display: inline;
+    margin: 20px;
+    padding: 20px;
+        
+}
+
+.mainNav ul li a {
+	color: #fff;
+    text-decoration: none;
+    
+}
+
+.mainNav ul li a:hover {
+    color: #E04949;
+}
+
+/* LOGO*/`
+
+
+.mainLogo .logoH {
+    width: 50px;
+    height: 20px;
+}
+
+
+
+
+/* BACKGROUND ANMATION*/
+
+
+#wrapper {
+/*	background-color: #FFF;*/
+	width: 100%;
+    margin: 0 auto;
+/*	height: 1000px;*/
+	border: 3px solid #000;
+    text-align: center;
+	/*margin: 0 auto;*/
+	/*position: absolute;*/
+	
+	
+}
+
+
+/*//// M A I N    D I V */
+/*///////////////////////*/
+
+.mainDiv {
+    position: relative;
+    z-index: 2;
+        
+    
+}
+
+
+.animationBack {
+    z-index: -1;
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    background: url(images/logo.png) no-repeat;
+    animation: rotate 15s;
+    animation-delay: 25s;
+    animation-iteration-count: 3;
+    overflow: hidden;
+        
+}
+
+@keyframes rotate {
+  0% {tansform: rotate(360deg);}
+  50% {tansform: rotate(360deg);}
+  100%{transform: rotate(360deg);}
+}
+
+
+.mainDiv .gaPress {
+/*     background-color: #000;*/
+    color: #000;
+    font-size: 30px;
+    text-align: left;
+    border-bottom: 2px solid #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.mainDiv .title {
+    
+    font-size: 30px;
+    color: #fff;
+    background-color: #000;
+}
+
+
+.mainDiv p {
+    font-size: 1em;
+    line-height:  1.375em;
+    margin: 20px 40px;
+    text-align: justify;
+}
+
+.mainDiv h3 {
+    font-size: 25px;    
+    font-family: 'Raleway', sans-serif;
+    font-style: bold;
+}
+
+.mainDiv img {
+    width: 100%;
+}
+
+
+.infoSection {
+    position: relative;
+/*    background-color: blueviolet;*/
+}
+
+.infoSection h3 {
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+/*    display: inline-block;*/
+    border-bottom: 2px solid #000;
+}
+.infoSection p {
+margin: 20px 40px;
+    text-align: justify;
+    
+}
+
+.infoSection img {
+/*    position: absolute;*/
+
+        display: inline-block;
+    width: inherit;
+    }
+
+.infoSection ul {
+/*    position: absolute;*/
+    font-size: 1em;
+    line-height:  1.375em;
+    list-style: none;
+    display: inline-block;
+/*    float: right;*/
+}
+
+.infoSection ul li {
+font-size: 1em;
+    line-height:  1.375em;
+    padding: 5px;
+}
+
+
+
+
+/*  T A B L E O F 3 */
+/*//////////////////////////*/
+
+.tableOf3 .{
+    width: 100%;
+    height: 20px;
+    background-color: red;
+    
+    
+}
+
+
+
+
+
+
+
+/*//////////////////////////////*/
+/*F O O T E R*/
+
+
+.footerMenu {
+    position: relative;
+	width: 100%;
+	height: 200px;
+	background-color: #000;
+
+}
+
+.footerMenu img {
+    position: absolute;
+    height: 150px;
+    right: 25px;
+    bottom: 25px;
+}
+
+
+
+
+/*////////////////////////////////////////////*/
+
+
+
+/*
+#################################### 
+###### MEDIA QUERY -- DESKTOP ######
+#################################### 
+*/
+@media screen and (min-width: 1025px) {
+
+  /* base setup */
+  body {
+    font-size: 18px;
+      margin: 0 auto;
+/*      background-color: brown;*/
+  }
+    
+    
+    
+/*    ///////////////////////////////////////    */
+/*    N A V  B A R */
+    
+/* NAV BAR*/
+.navConainer {
+	background-color: #FFF;
+	position: relative;
+	width: 100%;
+	height: 150px;
+ 
+	display: inline-block;
+    
+
+}
+
+
+.mainNav {
+	display: inline-block;
+	float: right;
+	background-color: #000;
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+}
+
+.mainNav ul {
+/*    padding: 20px;*/
+    
+
+}
+
+
+.mainNav ul li {
+	display: inline;
+    margin: 20px;
+    padding: 20px;
+        
+}
+
+.mainNav ul li a {
+	color: #fff;
+    text-decoration: none;
+    
+}
+
+.mainNav ul li a:hover {
+    color: #E04949;
+}
+
+    
+/*.///////////////////////////*/
+/*    LOGO MAIN NAV*/
+    
+    .logoH {
+        display: inline-block;
+        height: 150px;
+        position: absolute;
+        left: 0;
+    }
+    
+    
+/*//// M A I N    D I V */
+/*///////////////////////*/
+
+.mainDiv {
+    position: relative;
+    z-index: 2;
+        
+    
+}
+
+
+.animationBack {
+    z-index: -1;
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    background: url(images/logo.png) no-repeat;
+    animation: rotate 15s;
+    animation-delay: 5s;
+    animation-iteration-count: 3;
+    overflow: hidden;
+        
+}
+
+@keyframes rotate {
+  0% {tansform: rotate(360deg);}
+  50% {tansform: rotate(360deg);}
+  100%{transform: rotate(360deg);}
+}
+
+
+    
+.mainDiv .gaPress {
+
+    color: #000;
+    font-size: 70px;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 2px solid #000;
+}
+    
+.mainDiv .title {
+    
+    margin: 20px 320px;
+     background-color: #000;
+    color: #fff;
+    font-size: 40px;
+    border-bottom: 2px solid #000;
+}
+
+.mainDiv p {
+    margin: 20px 320px;
+    text-align: justify;
+}
+
+    .mainDiv h3 {
+        font-size: 40px;
+
+    }
+
+    
+    
+    
+.mainDiv img {
+    width: 50%;
+}
+
+    /*    I N F O  S E C T I O N  */
+/*    ////////////////////////////*/
+    
+    
+    
+.infoSection {
+/*    background-color: blueviolet;*/
+}
+
+.infoSection h3 {
+    font-size: 40px;
+    background-color: #000;
+    color: #fff;
+    margin: 20px 320px;
+/*    display: inline-block;*/
+    border-bottom: 2px solid #000;
+}
+.infoSection p {
+margin: 20px 320px;
+    text-align: justify;
+    
+}
+
+    .infoSection img {
+        display: inline-block;
+    }
+
+.infoSection ul {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.infoSection ul li {
+/*    display: inline-block;*/
+    
+/*    border-bottom: 2px solid #000;*/
+}
+    
+    
+
+    
+    
+    
+    
+    
+/*    A N I M A T I O N L O G O H E A D E R*/
+    
+    .mainLogo {
+        
+    }
+    
+/*    A N I M A T I O N B A C K G R O U N D*/
+
+    
+    .animationBack {
+    z-index: -1;
+    position: absolute;
+    top: 45%;
+    left: 83%;
+    background: url(images/logo.png) no-repeat;
+    animation: rotate 15s;
+    animation-delay: 5s;
+/*        number of times animation repeats*/
+    animation-iteration-count: 6;
+        overflow: hidden;
+    }
+
+@keyframes rotate {
+  0% {tansform: rotate(360deg);}
+  50% {tansform: rotate(360deg);}
+  100%{transform: rotate(360deg);}
+}
+
+
+    
+/*end of media for Desktop */
+}
+
+
+
+
+
+/* 
+#####################################
+####### MEDIA QUERY -- TABLET #######
+##################################### 
+*/
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+    
+    
+
+  /*
+  ====================
+  ===== HOME =========
+  ====================
+  */
+  
+}
+
